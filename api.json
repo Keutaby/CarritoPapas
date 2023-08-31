@@ -1,0 +1,97 @@
+[
+    {
+        "precio": 2.50, 
+        "id": 1, 
+        "title": "Barbecue Lays", 
+        "Picante": "No son Picantes",
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/papitas/1.jpg"
+    },
+
+    {
+        "precio": 1.00, 
+        "id": 2, 
+        "title": "Classic Lays", 
+        "Picante": "No son Picantes",
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/papitas/2.jpg"
+    },
+
+    {
+        "precio": 2.00, 
+        "id": 3, 
+        "title": "Churrumais", 
+        "Picante": "Son Poco Picantes",
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/papitas/3.jpg"
+    },
+
+    {
+        "precio": 2.00, 
+        "id": 4, 
+        "title": "Pringles", 
+        "Picante": "No son Picantes",
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/papitas/4.jpg"
+    },
+
+    {
+        "precio": 1.15, 
+        "id": 5, 
+        "title": "Cheetos", 
+        "Picante": "Son Poco Picantes",
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/papitas/5.jpg"
+    },
+
+    {
+        "precio": 1.10, 
+        "id": 6, 
+        "title": "Chips", 
+        "Picante": "Son Picantes",
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/papitas/6.jpg"
+    },
+
+    {
+        "precio": 1.00, 
+        "id": 7, 
+        "title": "Baked Lays", 
+        "Picante": "No son Picantes",
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/papitas/7.jpg"
+    },
+
+    {
+        "precio": 2.00, 
+        "id": 8, 
+        "title": "Lays Limon", 
+        "Picante": "No son Picantes",
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/papitas/8.jpg"
+    },
+
+    {
+        "precio": 2.50, 
+        "id": 9, 
+        "title": "Lays Picosas", 
+        "Picante": "Son Picantes",
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/papitas/9.jpg"
+    },
+
+    {
+        "precio": 2.50, 
+        "id": 10, 
+        "title": "Ruffles", 
+        "Picante": "No son Picantes",
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/papitas/10.jpg"
+    },
+
+    {
+        "precio": 1.30, 
+        "id": 11, 
+        "title": "Miss Vickies", 
+        "Picante": "No son Picantes",
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/papitas/11.jpg"
+    },
+
+    {
+        "precio": 1.00, 
+        "id": 12, 
+        "title": "Doritos", 
+        "Picante": "No son Picantes",
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/papitas/12.jpg"
+    }
+]

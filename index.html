@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Carrito de Papitas</title>
+</head>
+    <body>
+        <header>
+            Puedes comprar las papitas que quieres para hacer tu dia bonito!
+        </header>
+
+        <div class="container">
+            <h1 class="text-center">Delicious Chips for your Day</h1>
+            <hr>
+            <div class="row" id="cards"></div>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Items</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">Picante</th>
+                    <th scope="col">Action</th>
+                    <th scope="col">Total</th>
+                </tr>
+            </thead>
+            <tbody id="items"></tbody>
+            <tfoot>
+                <tr id="footer">
+                    <th scope="row" colspan="5">No tienes nada en tu carrito - Compra unas papitas para disfrutar</th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <template id="template-carrito">
+            <tr>
+                <th scope="row">id</th>
+                <td>Chips</td>
+                <td>1</td>
+                <td>Picante</td>
+                <td>
+                    <button class="btn-info btn-sm"> + </button>
+                    <button class="btn-danger" > - </button>
+                </td>
+                <td>$<span>0</span></td>
+            </tr>
+        </template>
+
+        <template id="template-card">
+            <div class="col-12 col-md-3">
+                <div class="card">
+                    <img src="" class="card-img" alt="" style="width:100px; height:100px;">
+                    <div class="card-body">
+                        <h5 class="title">Chips</h5>
+                        <p class="text">$<span>35.00</span></p>
+                        <button class="btn btn-dark">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </template>
+
+        <template id="template-footer">
+            <th scope="row" colspan="2">Total Products</th>
+            <td>10</td>
+            <td>Picante</td>
+            <td>
+                <button class="btn-danger" id="empty-cart">
+                Empty
+                </button>
+            </td>
+            <td class="font">$<span>1000</span></td>
+        </template>
+
+        <footer>
+            Abigail Keuten Contreras <br> 217212 <br> Diseño Web HTML5 y CSS3 Adaptativo
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
+</html>
